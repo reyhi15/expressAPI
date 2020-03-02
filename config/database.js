@@ -8,9 +8,9 @@ function dbconnect() {
     // config for your database
     var config = {
         user: 'sa',
-        password: 'Sentinel2010$',
-        server: 'SNTNL-PC-RGPS',
-        database: 'wsdatabase',
+        password: 'password',
+        server: 'servername',
+        database: 'databasename',
         options: {
             instanceName: 'MSSQLSERVER2017',
             enableArithAbort: true,
