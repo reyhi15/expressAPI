@@ -7,12 +7,12 @@ function dbconnect() {
 
     // config for your database
     var config = {
-        user: 'sa',
-        password: 'Sentinel2010$',
-        server: 'SNTNL-PC-RGPS',
-        database: 'wsdatabase',
+        user: 'Username',
+        password: 'Password',
+        server: 'ServerName',
+        database: 'DataBaseName',
         options: {
-            instanceName: 'MSSQLSERVER2017',
+            instanceName: 'instanceName',
             enableArithAbort: true,
         }
     };
