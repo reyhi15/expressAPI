@@ -8,7 +8,7 @@ function dbconnect() {
     // config for your database
     var config = {
         user: 'sa',
-        password: 'password',
+        password: 'Sentinel$',
         server: 'SNTNL-PC-RGPS',
         database: 'wsdatabase',
         options: {
