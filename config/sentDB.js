@@ -1,4 +1,4 @@
-var response = require('../config/response');
+var response = require('./response');
 
 function dbconnect() {
     console.log('DINERO')
@@ -8,11 +8,11 @@ function dbconnect() {
     // config for your database
     var config = {
         user: 'sa',
-        password: 'Sentinel2010$',
-        server: 'SNTNL-PC-RGPS',
-        database: 'wsdatabase',
+        password: 'Sentinel2010',
+        server: 'SNTNL-SVR-PRI',
+        database: 'AFPrivado2',
         options: {
-            instanceName: 'MSSQLSERVER2017',
+            instanceName: 'MSSQLSERVER',
             enableArithAbort: true,
         }
     };
@@ -38,6 +38,7 @@ function dbconnect() {
                     }
                     else{
                         // send records as a response
+                        console.log('CONECTADO A SENTINEL')
                         res.send(recordset);
                         //return res.json(response(recordset, err));
                     }
